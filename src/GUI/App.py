@@ -211,12 +211,12 @@ class App(Frame):
     def open_setting(self):
         import webbrowser
         def open_doc():
-            webbrowser.get().open("https://drive.google.com/drive/folders/1716kUv4Pq6Fo-OkcoV40hlahNElg6zM7?usp=sharing")
+            webbrowser.get().open("https://drive.google.com/file/d/1HxgcIZKQvnQdZoMzVBFE1cfXGL0GLAoT/view?usp=sharing")
         def open_drive():
-            webbrowser.get().open("https://drive.google.com/drive/folders/17TCXDiTqZ4JZ_KAl1MvKfGjyirzbTVFU?usp=sharing")
+            webbrowser.get().open("https://drive.google.com/file/d/1_HZZVvI5UaebjOkYDd4r9_niSqSDEgql/view?usp=sharing")
 
         def open_github():
-            webbrowser.get().open("https://github.com/BongNT/BTL_CNPM.git")
+            webbrowser.get().open("https://github.com/HoangPhamk64/Database.git")
         def open_register():
             webbrowser.get().open("http://dangkyhoc.vnu.edu.vn/dang-nhap")
         top = Toplevel()
@@ -229,7 +229,7 @@ class App(Frame):
         top.grid_columnconfigure(0, weight=10)
         top.grid_columnconfigure(1, weight=1)
 
-        label = Label(top, text="Phần mềm quản lý môn học\nPhiên bản : 1.0\n Phát triển bởi Nhóm 5 gồm:\n Nguyễn Thành Bổng\n Đinh Phú Hoàng\n Phạm Minh Hoàng\n Trần Thành Long",font='calibri 14')
+        label = Label(top, text="Phần mềm quản lý môn học\nPhiên bản : 1.0\n Phát triển bởi Phạm Minh Hoàng",font='calibri 14')
         doc_button = Button(top,text="Hướng dẫn sử dụng", command=open_doc)
         drive_button = Button(top,text="Lấy dữ liệu", command=open_drive)
         github_button = Button(top,text="Github", command=open_github)

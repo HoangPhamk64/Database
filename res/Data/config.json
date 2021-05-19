@@ -1,6 +1,6 @@
 {
   "host": "localhost",
   "user": "root",
-  "port": "2001",
-  "database": "test"
+  "port": "3306",
+  "database": "software"
 }
